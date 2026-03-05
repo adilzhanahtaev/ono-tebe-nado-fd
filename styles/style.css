@@ -85,9 +85,6 @@ a {
     background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: center;
-    padding-top: 165px;
-    padding-left: 50px;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -118,18 +115,20 @@ a {
 
 .aligned-text-left {
     text-align: left;
+    padding-top: 165px;
+    padding-left: 50px;
 }
 
 .aligned-text-center {
     text-align: center;
+    justify-content: center;
     margin-top: 20px;
-    margin-left: 40px;
 }
 
 .aligned-text-right {
     text-align: right;
     margin-top: 20px;
-    margin-left: 300px;
+    padding-right: 30px;
 
 }
 
@@ -139,6 +138,9 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
 }
 
 .cover-description-text {
@@ -152,7 +154,6 @@ a {
     background: transparent;
     color: #fff;
     padding: 12px 32px;
-    margin-right: 50px;
     font-size: 22px;
     text-transform: uppercase;
     cursor: pointer;
