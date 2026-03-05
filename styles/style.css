@@ -87,6 +87,7 @@ a {
     background-position: center;
     padding-top: 165px;
     padding-left: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -151,6 +152,7 @@ a {
     background: transparent;
     color: #fff;
     padding: 12px 32px;
+    margin-right: 50px;
     font-size: 22px;
     text-transform: uppercase;
     cursor: pointer;
