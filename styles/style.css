@@ -16,7 +16,8 @@ a {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    min-height: 293px;
+    margin-top: 92px;
+    margin-bottom: 96px;
 }
 
 .header-links-list {
@@ -63,27 +64,30 @@ a {
 
 .address {
     font-style: normal;
+    font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-self: end;
+    font-size: 18px;
+    margin-right: 50px;
+    
 }
 
 .header-address {
-    justify-self: end;
     width: 230px;
-    font-size: 18px;
-    margin-right: 50px;
 }
 
 .cover {
     position: relative;
-    height: 757px;
+    min-height: 757px;
     background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: center;
-    padding: 165px 50px 50px;
+    padding-top: 165px;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -98,6 +102,7 @@ a {
 }
 
 .cover-title {
+    display: block;
     position: relative;
     z-index: 1;
     font-size: 100px;
@@ -118,10 +123,15 @@ a {
 .aligned-text-center {
     text-align: center;
     margin-top: 20px;
+    margin-left: 40px;
 }
 
 .aligned-text-right {
     text-align: right;
+    margin-top: 20px;
+    text-align: right;
+    margin-left: 300px;
+
 }
 
 .cover-description {
@@ -152,7 +162,6 @@ a {
   margin-left: 24px;
   margin-right: 24px;
   width: 1052px;
-  height: 723px;
   margin-top: 180px;
 }
 
@@ -226,10 +235,10 @@ a {
     margin-top: 30px;
     margin-left: 40px;
     padding: 6px 10px;
-    font-weight: 700;
-    height: 25px;
+    font-weight: normal;
+    line-height: 100%;
+    font-size: 20px;
     text-transform: lowercase;
-    width: 192px;
 }
 
 .about {
@@ -255,7 +264,6 @@ a {
 
 .about-text {
     width: 680px;
-    height: 449px;
 }
 
 .about-logo {
@@ -298,7 +306,6 @@ a {
     grid-template-columns: auto 1fr auto;
     padding: 0 50px 88px;
     align-items: center;
-    min-height: 98px;
     margin-top: 180px;
 }
 
@@ -338,8 +345,5 @@ a {
 }
 
 .footer-address {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
     width: 264.58px;
 }
